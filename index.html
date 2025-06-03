@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Boas vindas!</h1>
+        <p>Descobrindo se é um triangulo, e qual é o seu tipo!</p>
+        <div class="saudacao" id="OutPut">...</div>
+        <label for="Lado_1">Lado 1</label>
+        <input name="Lado_1" type="number" placeholder="Lado 1" id="lado_1">
+        <label for="Lado_2">Lado 2</label>
+        <input name="Lado_2" type="number" placeholder="Lado 2" id="lado_2">
+        <br>
+        <label for="Lado_3">Lado 3</label>
+        <input name="Lado_3" type="number" placeholder="Lado 3" id="lado_3">
+        <br>
+        <button onClick="descobrirTriangulo()">Descobrir triangulo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
